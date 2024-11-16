@@ -12,5 +12,6 @@ def roll_dice(target):
 target = int(input("Enter a target number of a dice: "))
 c = roll_dice(target)
 print("the number of turns it took to get the target: ", c)
-
+print("This is ur result")
+#Sir done
 
