@@ -7,7 +7,7 @@
 
 a = 153
 sum = 0 
-temp = a
+temp a
 while temp > 0:
     digit = temp % 10
     sum += digit**3
