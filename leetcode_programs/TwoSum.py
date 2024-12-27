@@ -20,3 +20,5 @@ if twoSum(arr, target):
     print("true")
 else:
     print("false")
+
+# [3,6]

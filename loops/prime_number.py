@@ -9,9 +9,9 @@ if n > 1:
         if n % i == 0:
             print("not a prime number")
             break
-        else:
-            print(f"{n} is a prime number")
-            break
+    else:
+        print(f"{n} is a prime number")
+        
 else:
     print(f"{n} is not a prime number")
 

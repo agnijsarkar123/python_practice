@@ -7,7 +7,7 @@ def odd_or_even(a):
 
 def factorial(a): 
     product = 1
-    for i in range(1,num+1):
+    for i in range(1,a+1):
         product = product*i
     return product
 
@@ -28,7 +28,7 @@ if(menu == 1):
 
 elif(menu == 2):
     num = int(input("Enter a number: "))
-    print("factorial is: ", factorial(num))
+    print(f"factorial is: {factorial(num)}")
 
 elif(menu == 3):
     time = int(input("Enter a time in seconds: "))

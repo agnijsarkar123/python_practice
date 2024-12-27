@@ -5,7 +5,7 @@ def perfect_num(n):
         factors = 0
         # dup_num = num
         for i in (1, n):
-            if(i%2) == 0:
+            if(i%2) == 0 and i!= 0 :
                 factors+=i
                 
         print(factors)
