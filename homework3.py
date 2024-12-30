@@ -9,3 +9,7 @@ elif((a==b and b!=c and c!=a) or (a!=b and b!=c and c==a) or (a!=b and b==c and 
     print("It is a isosceles triangle")
 elif(a!=b and b!=c and c!=a):
     print("It is a scalene triangle")
+    #ok lets start programming 
+    #first of ll we will take a look at alm the problems which we can face while
+    #tell me the reason y he got bitten by a Wolf 
+    tell

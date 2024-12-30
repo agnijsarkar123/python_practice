@@ -19,12 +19,18 @@ print("Please enter2 a number to check its factorial")
 print("Please enter3 a time in minutes to convert into hours")
 menu = int(input("User please choose 1 or 2 or 3: "))
 
-if menu == 1:
+if(menu == 1):
+    num = int(input("Enter a number: "))
+    oddoreven(num)
+   
+
+elif(menu == 2):
+    num = int(input("Enter a number: "))
+    print(f"factorial is: {fact(num)}")
+
+elif(menu == 3):
+    time = int(input("Enter a time in seconds: "))
+    print(f"time in hours: {time(time)}" )
     
-    print (oddoreven())
-elif menu == 2:
-    print (fact)
-elif menu == 3:
-    print(f"Time in hours is {time}")
 else:
-    print("Not valid choice,Please enter a valid choice.")
+    print("Enter correct choice")
