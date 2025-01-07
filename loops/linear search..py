@@ -22,7 +22,6 @@ no_of_fruits = int(input("How many fruits would you like to add:"))
 for i in range(no_of_fruits):
     update_fruits = input("Enter name of fruit you'd like to add: ")
     update_fruit_list(l1,update_fruits)
-    
 
 for i in l1:
         print(i)

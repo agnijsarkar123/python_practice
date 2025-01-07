@@ -9,8 +9,8 @@ def fact(b):
     for i in range(1 , b + 1):
         product = product*i
         return product
-    
-def time(c):
+
+def time_hours(c):
     time = c//60
     return time
 
@@ -30,7 +30,8 @@ elif(menu == 2):
 
 elif(menu == 3):
     time = int(input("Enter a time in seconds: "))
-    print(f"time in hours: {time(time)}" )
+    print("time in hours: ",time_hours(time) )
     
 else:
     print("Enter correct choice")
+#The End 
