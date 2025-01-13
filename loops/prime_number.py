@@ -15,5 +15,5 @@ if n > 1:
 else:
     print(f"{n} is not a prime number")
 
-# 0 and 1 can't be prime no.s
+# 
 # 
