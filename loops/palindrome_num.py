@@ -9,11 +9,11 @@ print(boo)
 # str2 = ""
 # for s in a[::-1]:
 #     str2 += s
-#
 # if(a == str2):
 #     print("palindrome number")
 # else:
 #     print("not")
+
 
 
 
